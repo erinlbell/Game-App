@@ -1,0 +1,135 @@
+page-character {
+ 
+
+   
+   
+    .canva {
+        background-color:red;
+    }
+
+    #male {
+        position:absolute;
+        left:450px;
+        bottom: 170px;
+    }
+    #female {
+        position:absolute;
+        right:450px;
+        bottom: 160px;
+    }
+    #hair {
+        position:absolute;
+        top:18px;
+        z-index: 6;
+        left:5px;
+    }
+
+    #femalehair {
+        position:absolute;
+        top:14px;
+        z-index: 6;
+        width:120px;
+        height:80px;
+        left:-4px;
+    }
+    #femalehead {
+        position:absolute;
+        z-index: 5;
+        top:35px;
+        width:60px;
+        height:40px;
+        left: 20px;
+    }
+    #femaleleftEye{
+        position:absolute;
+        z-index: 7;
+        top:57px;
+        width:13px;
+        height:10px;
+        left: 30px;
+    }
+    #femalerightEye{
+        position:absolute;
+        z-index: 8;
+        top:56px;
+        width:13px;
+        height:10px;
+        left: 44px;
+    }
+    #head {
+        position:absolute;
+        z-index: 5;
+        top:30px;
+        height:40px;
+        left: 19px;
+    }
+    #leftArm {
+        position:absolute;
+        z-index: 4;
+        top:90px;
+        left:10px;
+    }
+    #rightArm {
+        position:absolute;
+        width:60px;
+        height:60px;
+        top:83px;
+        left:70px;
+    }
+    #femalerightArm {
+        position:absolute;
+        width:50px;
+        height:60px;
+        top:83px;
+        left:70px;
+    }
+    #torso {
+        position:absolute;
+        z-index: 3;
+        top:93px;
+        left:20px;
+    }
+    #femaleleg{
+        position:relative;
+        z-index: 2;
+        top:112px;
+        left:15px;
+    }
+    #leg{
+        position:relative;
+        z-index: 2;
+        top:122px;
+        left:20px;
+    }
+    #leftEye{
+        position:absolute;
+        z-index: 7;
+        top:60px;
+        width:17px;
+        height:10px;
+        left: 47px;
+    }
+    #rightEye{
+        position:absolute;
+        z-index: 8;
+        top:60px;
+        width:17px;
+        height:10px;
+        left: 63px;
+    }
+    
+    ion-content {
+        //background: #bcdee7 url('/assets/images/1.gif') no-repeat center center fixed;
+        background-size: 100% 100%;
+        font: normal 14px/1.618em "Roboto", sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }	
+    .card {
+        opacity:.8;
+    }
+   
+    
+
+
+   
+}

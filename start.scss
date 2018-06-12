@@ -1,0 +1,61 @@
+.ios, .md {
+	page-start {
+    
+        
+        
+
+		.getstarted {
+			left:50px;
+			height:50px;
+			border-radius: 5%;
+			background-color:rgb(30, 156, 156);
+			color:black;
+			width:80%;
+		}
+        
+        .button1 {
+            width:50%;
+            float:left;
+            position:absolute;
+            bottom:30px;
+        }
+
+        .button2 {
+            width:50%;
+            position:absolute;
+            bottom:30px;
+            right:30px;
+            float:right !important;
+        }
+		ion-content {
+            background: #bcdee7 url('/assets/images/1.gif') no-repeat center center fixed;
+            background-size: 100% 100%;
+			font: normal 14px/1.618em "Roboto", sans-serif;
+			-webkit-font-smoothing: antialiased;
+        }	
+        
+        ion-title {
+            text-align:center !important;
+        }
+        ion-card-header{
+            background-color:rgb(8, 32, 32);
+            color:white;
+
+        }
+
+        ion-card{
+            opacity: .7;
+            width: 40%;
+            float: right;
+            position: relative;
+            left: -30%; /* or right 50% */
+            text-align: left;
+            top:200px;
+        }
+        ion-card  > .child{
+            position: relative;
+            left: 50%;
+        }
+
+    }
+}

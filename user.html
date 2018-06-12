@@ -1,0 +1,63 @@
+
+
+<ion-content padding>
+	<ion-card>
+		<ion-card-header>
+			Complete Your Profile
+		</ion-card-header>
+
+		<ion-item>
+			<ion-label color="primary">Display Name</ion-label>
+			<ion-input type="text" [(ngModel)]="username" required></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label color="primary">Title</ion-label>
+			<ion-input type="text" [(ngModel)]="title" required></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label color="primary">First Name</ion-label>
+			<ion-input type="text" [(ngModel)]="firstName" required></ion-input>
+		</ion-item>
+
+		<ion-item>
+			<ion-label color="primary">Last Name</ion-label>
+			<ion-input type="text" [(ngModel)]="lastName" required></ion-input>
+		</ion-item>
+
+		<ion-item>
+				<ion-label color="primary">Gender</ion-label>
+				<ion-input type="text" [(ngModel)]="gender" required></ion-input>
+		</ion-item>
+
+		<ion-item>
+				<ion-label color="primary">Age</ion-label>
+				<ion-input type="text" [(ngModel)]="age" required></ion-input>
+			</ion-item>
+
+		<ion-item>
+			<ion-label color="primary">Bio</ion-label>
+			<ion-input type="text" [(ngModel)]="bio" required></ion-input>
+		</ion-item>
+		<br/><br/><br/>
+		<ion-footer>
+			<button (click)="SaveProfile()" class="savebutton">Save</button>
+		</ion-footer>
+	</ion-card>
+
+	<!--
+	<button ion-button outline color="secondary"  left class="iconleft">
+		Value = {{_userInfo._test}} 
+	</button>
+
+	<button ion-button outline  color="light"  (click)="Multiply()">
+		Times 2
+	</button>
+
+	<button ion-button outline color="light"  (click)="Divide()">
+		Divided by 2
+	</button>
+	-->
+	
+</ion-content>

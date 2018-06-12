@@ -1,0 +1,31 @@
+page-page1 {
+    .getstarted {
+        left:50px;
+        height:50px;
+        border-radius: 5%;
+        background-color:rgb(30, 156, 156);
+        color:black;
+        width:80%;
+    }
+    
+    .button1 {
+        width:50%;
+        float:left;
+        position:absolute;
+        bottom:30px;
+    }
+
+    .button2 {
+        width:50%;
+        position:absolute;
+        bottom:30px;
+        right:30px;
+        float:right !important;
+    }
+    ion-content {
+        background: #bcdee7 url('/assets/images/1.gif') no-repeat center center fixed;
+        background-size: 100% 100%;
+        font: normal 14px/1.618em "Roboto", sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+}

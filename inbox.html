@@ -1,0 +1,23 @@
+
+<ion-content>
+	<ion-card>
+		<ion-card-header>
+			Message Inbox
+		</ion-card-header>
+
+		<ion-list> 
+			<button ion-item *ngFor="let message of messages" (click)="itemTapped($event, message)">
+				<ion-icon [name]="message.icon" item-start></ion-icon>
+				<div class="item-note" item-right>
+					{{message.note}}
+				</div>
+			</button>
+		</ion-list>
+
+		<div *ngIf="selectedMessage" padding class="selected-note">
+		Message <b> {{selectedMessage.messageCount}} </b> from <b><ion-icon [name]="selectedMessage.icon" item-start></ion-icon>  {{selectedMessage.icon}} </b>
+		</div>
+	</ion-card>
+
+	<button class="getstarted" (click)="GoToProfile()" ion-button block>My Profile</button>		
+</ion-content>
