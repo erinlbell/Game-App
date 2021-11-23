@@ -12,9 +12,9 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
+    "heroku-postbuild": "npm rebuild node-sass",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-     "postinstall": "npm rebuild node-sass && npm install --unsafe-perm -f node-sass"
   },
 
   "dependencies": {
