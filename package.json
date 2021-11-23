@@ -11,8 +11,6 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
-  { "engines" : { "node" : ">=0.12" } 
-  },
 
   "dependencies": {
     "@angular/common": "4.4.4",
@@ -35,7 +33,8 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.0.1",
-    "typescript": "2.3.4"
+    "typescript": "2.3.4",
+    "node" : ">=0.12"
   },
   "description": "An Ionic project"
 }
