@@ -5,8 +5,8 @@
   "homepage": "http://ionicframework.com/",
   "private": false,
   "engines": {
-    "node": "6.11.3",
-    "npm": "3.10.10"
+    "node": "16.13.0",
+    "npm": "8.1.0"
   },
   "scripts": {
     "clean": "ionic-app-scripts clean",
